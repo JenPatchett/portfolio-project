@@ -34,6 +34,18 @@ body {
 	margin-bottom: 15px;
 }
 
+section {
+	margin: 40px 0;
+}
+
+article {
+	margin: 40px 0;
+}
+
+#project-one {
+	margin-top: -20px;
+}
+
 footer, footer p {
 	display: flex;
 	align-items: center;
