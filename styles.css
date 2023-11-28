@@ -33,3 +33,12 @@ body {
 #search-input, #search-btn {
 	margin-bottom: 15px;
 }
+
+footer, footer p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	padding: 10px 0;
+	background-color: #F8F9FA;
+}
