@@ -1,0 +1,92 @@
+body {
+	max-width: 1200px;
+	font-size: 16px;
+	margin: auto;
+	padding: 20px;
+}
+
+header {
+	text-align: center;
+}
+
+#site-title {
+	font-size: 40px;
+}
+
+#site-description {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+nav {
+	padding-bottom: 20px;
+}
+
+#nav-menu {
+	width: 410px;
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+	font-size: 20px;
+	border: 16px solid #f3f3f3;
+	border-radius: 8px;
+	background-color: #f3f3f3;
+}
+
+li {
+	display: inline;
+	border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	padding: 20px;
+}
+
+/* unvisited link */
+a:link {
+	color: #004d99; /* dark blue */
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #5200cc; /* purple */
+}
+
+/* mouse over or select link with keyboard */
+a:hover,
+a:focus {
+	color: #006666; /* teal */
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+	color: #006666; /* teal */
+	text-decoration: underline;
+}
+
+.wave {
+	font-size: 30px;
+}
+
+section {
+	padding-bottom: 20px;
+}
+
+article {
+	padding-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px 0;
+	border: 0 solid #e7e7e7;
+	border-radius: 8px;
+	background-color: #f3f3f3;
+}
