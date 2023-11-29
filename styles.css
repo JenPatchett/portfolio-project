@@ -42,6 +42,15 @@ article {
 	margin-top: -20px;
 }
 
+.accordion-body {
+	margin-left: 10px;
+}
+
+.project-img {
+	margin: 20px 0 40px 30px;
+	/* max-width: 340px; */
+}
+
 fieldset {
 	max-width: 600px;
 }
