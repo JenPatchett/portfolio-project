@@ -48,17 +48,18 @@ article {
 
 .project-img {
 	margin: 20px 0 40px 30px;
-	/* max-width: 340px; */
+	border-radius: 7px;
 }
 
 fieldset {
 	max-width: 600px;
+	margin-right: 0px;
 }
 
 #contact-img {
 	max-width: 400px;
-	padding: 10px;
-	margin: 0 auto; 
+	margin: 30px 0 40px 20px;
+	border-radius: 7px;
 }
 
 footer {
