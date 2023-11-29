@@ -176,13 +176,32 @@
 
 		<section id="contact">
 			<h2>Contact</h2>
-			<p>I'm on <a href="https://github.com/JenPatchett" target="_blank">GitHub</a>, <a href="https://codepen.io/jenpatchett/" target="_blank">CodePen</a> and <a href="https://www.linkedin.com/in/jenpatchett/" target="_blank">LinkedIn</a>.</p>
+			<form id="contact-form">
+				<div class="mb-3">
+				  <label for="inputName" class="form-label">Full name:</label>
+				  <input type="text" class="form-control" id="inputName" aria-labelledby="inputName" required>
+				</div>
+				<div class="mb-3">
+				  <label for="inputEmail" class="form-label">Email address:</label>
+				  <input type="email" class="form-control" id="inputEmail" aria-labelledby="inputEmail" required>
+				</div>
+				<div class="mb-3">
+					<label for="inputMessage" class="form-label">Message:</label>
+					<input type="text" class="form-control" id="inputMessage" aria-labelledby="inputMessage" required>
+				</div>
+				  <div id="contact-form-submit" class="mb-3 form-check">
+					<input type="checkbox" class="form-check-input" id="form-check-input" required>
+					<label class="form-check-label" for="form-check-input">I agree to the <a href="#">terms and conditions</a></label>
+					<button id="contact-submit-btn" type="submit" class="btn btn-primary float-end">Submit</button>
+				  </div>
+			  </form>
 		</section>
 
 	</main>
 
 	<footer>
-			<p>Copyright &copy 2023 Jen Patchett. All rights reserved.</p>
+		<p>I'm on <a href="https://github.com/JenPatchett" target="_blank">GitHub</a>, <a href="https://codepen.io/jenpatchett/" target="_blank">CodePen</a> and <a href="https://www.linkedin.com/in/jenpatchett/" target="_blank">LinkedIn</a>.</p>
+		<p>Copyright &copy 2023 Jen Patchett. All rights reserved.</p>
 	</footer>
 
 	<!-- Bootstrap script for interactivity -->
