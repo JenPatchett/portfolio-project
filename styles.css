@@ -6,7 +6,7 @@ body {
 	max-width: 1200px;
 	font-size: 16px;
 	margin: auto;
-	padding: 0 20px 20px 20px;
+	padding: 0 20px;
 	scroll-behavior: smooth;
 }
 
@@ -46,11 +46,15 @@ article {
 	margin-top: -20px;
 }
 
-footer, footer p {
+footer {
+	margin-top: 20px;
+	padding: 20px 0;
+	background-color: #F8F9FA;
+}
+
+footer p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 20px;
-	padding: 10px 0;
-	background-color: #F8F9FA;
+	padding-top: 20px;
 }
