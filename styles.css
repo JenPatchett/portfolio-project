@@ -39,7 +39,7 @@ article {
 }
 
 #project-one {
-	margin-top: -20px;
+	margin-top: -15px;
 }
 
 .accordion-body {
@@ -53,7 +53,7 @@ article {
 
 fieldset {
 	max-width: 600px;
-	margin-right: 0px;
+	margin-left: 2px;
 }
 
 #contact-img {
