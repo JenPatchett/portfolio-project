@@ -42,8 +42,14 @@ article {
 	margin-top: -20px;
 }
 
-#contact-form {
+fieldset {
 	max-width: 600px;
+}
+
+#contact-img {
+	max-width: 400px;
+	padding: 10px;
+	margin: 0 auto; 
 }
 
 footer {
