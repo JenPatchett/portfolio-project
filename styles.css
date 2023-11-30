@@ -6,6 +6,10 @@
 	scroll-behavior: smooth;
 }
 
+.scroll-margin-top {
+	scroll-margin-top: 90px;
+}
+
 #site-title {
 	font-size: 40px;
 	margin-top: 10%;
