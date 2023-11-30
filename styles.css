@@ -66,13 +66,20 @@ article {
 }
 
 fieldset {
-	max-width: 600px;
+	max-width: 700px;
 	margin-left: 2px;
 }
 
-#contact-img {
-	max-width: 400px;
-	margin: 30px 0 40px 20px;
+#contact-img-section {
+	/* max-width: 300px; */
+	/* margin: 30px 0 40px 20px; */
+	/* border-radius: 7px; */
+}
+
+.profile-img {
+	width: auto;
+	max-height: 335px;
+	margin-top: 32px;
 	border-radius: 7px;
 }
 
