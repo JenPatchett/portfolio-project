@@ -16,7 +16,8 @@
 	height: 50px;
 	border: 1px solid #7843E9;
 	border-radius: 50%;
-	background-color: #7843E9;;
+	background-color: #7843E9;
+	margin-right: 10px;
 }
 
 #site-title {
