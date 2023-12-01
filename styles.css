@@ -2,7 +2,7 @@
 	max-width: 1200px;
 	font-size: 16px;
 	margin: auto;
-	padding: 20px;
+	padding: 0 20px;
 	scroll-behavior: smooth;
 }
 
@@ -20,20 +20,18 @@
 	margin-right: 10px;
 }
 
-#site-title {
+#heading {
+	text-align: center;
+}
+
+#main-title {
 	font-size: 40px;
 	margin-top: 10%;
-	padding-top: 20px;
+	padding-top: 50px;
 }
 
-#site-description {
+#main-description {
 	font-size: 20px;
-	padding-bottom: 20px;
-}
-
-#site-title, #site-description {
-	display: flex;
-	justify-content: center;
 }
 
 #nav-list {
@@ -51,7 +49,7 @@ section {
 .carousel-inner {
 	border-radius: 7px;
 	width: auto;
-	height: 360px;
+	/* height: 360px; */
 }
 
 .skills-cards-container {
@@ -92,19 +90,15 @@ fieldset {
 }
 
 footer {
-	/* max-width: 100%; */
 	margin-top: 50px;
 	padding: 20px 0;
-	/* left: 0;
-  	right: 0; */
   	width: 100%;
 	background-color: #F8F9FA;
-}
-
-footer p {
-	display: flex;
-	align-self: flex-end;
-	justify-content: center;
 	padding-top: 50px;
 	font-size: 0.8em;
+	text-align: center;
+}
+
+.social-links {
+	font-size: 16px;
 }
