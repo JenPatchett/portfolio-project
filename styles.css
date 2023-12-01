@@ -60,6 +60,10 @@ section {
 	padding: 0;
 }
 
+.heading-mb {
+	margin-bottom: 15px;
+}
+
 #project-one {
 	margin-top: -15px;
 }
