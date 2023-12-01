@@ -49,7 +49,6 @@ section {
 .carousel-inner {
 	border-radius: 7px;
 	width: auto;
-	/* height: 360px; */
 }
 
 .skills-cards-container {
@@ -68,12 +67,33 @@ section {
 	margin-top: -15px;
 }
 
+.accordion-button {
+	background-color: #F8F9FA;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #e1e6ea;
+	box-shadow: none;
+	font-weight: 500;
+	color: #212529;
+}
+
+.accordion-button:focus {
+	box-shadow: inherit;
+}
+
+.accordion-button:hover {
+	background-color: #e1e6ea;
+	font-weight: 500;
+}
+
 .accordion-body {
 	margin-left: 10px;
 }
 
 .project-img {
 	margin: 20px 0 40px 30px;
+	border: 1px solid grey;
 	border-radius: 7px;
 }
 
