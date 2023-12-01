@@ -94,3 +94,15 @@ footer p {
 	padding-top: 50px;
 	font-size: 0.8em;
 }
+
+.skills-cards-container {
+	margin-top: 15px;
+}
+
+.skills-card {
+	padding: 0;
+}
+
+.skills-heading {
+	margin-left: -12px;
+}
