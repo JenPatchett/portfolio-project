@@ -60,6 +60,10 @@ section {
 	padding: 0;
 }
 
+.heading-mb {
+	margin-bottom: 15px;
+}
+
 #project-one {
 	margin-top: -15px;
 }
@@ -87,14 +91,14 @@ fieldset {
 
 footer {
 	margin-top: 50px;
-	padding: 20px 0;
+	padding: 50px 0 20px 0;
   	width: 100%;
 	background-color: #F8F9FA;
-	padding-top: 50px;
 	font-size: 0.8em;
 	text-align: center;
 }
 
-.social-links {
-	font-size: 16px;
+.social-logo {
+	width: 30px;
+	margin: 30px 15px;
 }
