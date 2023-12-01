@@ -48,6 +48,12 @@ section {
 	margin: 70px 0;
 }
 
+.carousel-inner {
+	border-radius: 7px;
+	width: auto;
+	height: 360px;
+}
+
 .skills-cards-container {
 	margin-top: 15px;
 }
