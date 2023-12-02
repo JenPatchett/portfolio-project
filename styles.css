@@ -51,6 +51,18 @@ section {
 	width: auto;
 }
 
+.carousel-item > img {
+	height: 300px;
+	/* width: auto; */
+	object-fit:cover;
+}
+
+/* @media only screen and (max-width: 500px){
+	.carousel-item > img {
+	  width: 100%;
+	}
+  } */
+
 .card-title {
 	font-size: 20px;
 }
