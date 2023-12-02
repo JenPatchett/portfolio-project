@@ -55,6 +55,11 @@ section {
 	font-size: 20px;
 }
 
+.card-title-link {
+	text-decoration: none;
+	color: inherit;
+}
+
 .skills-cards-container {
 	margin-top: 15px;
 }
