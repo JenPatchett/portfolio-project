@@ -53,15 +53,9 @@ section {
 
 .carousel-item > img {
 	height: 300px;
-	/* width: auto; */
+	width: auto;
 	object-fit:cover;
 }
-
-/* @media only screen and (max-width: 500px){
-	.carousel-item > img {
-	  width: 100%;
-	}
-  } */
 
 .card-title {
 	font-size: 20px;
@@ -112,22 +106,9 @@ section {
 	margin-left: 10px;
 }
 
-.project-img {
-	margin: 20px 0 40px 30px;
-	border: 1px solid grey;
-	border-radius: 7px;
-}
-
 fieldset {
 	max-width: 700px;
 	margin-left: 2px;
-}
-
-.profile-img {
-	width: auto;
-	max-height: 335px;
-	margin-top: 32px;
-	border-radius: 7px;
 }
 
 footer {
