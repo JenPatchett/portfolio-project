@@ -1,0 +1,216 @@
+{# <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} </title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header><h1>{{ title }} </h1></header>
+
+    <main>
+        {{ content | safe }}
+    </main>
+</body>
+</html> #}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Jen Patchett's Portfolio" />
+		<title>{{ title }} </title>
+
+		{# <!-- Bootstrap Stylesheet --> #}
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		
+		{# <!-- Additional Stylesheet --> #}
+		<link rel="stylesheet" href="{{'/styles.css' | url | safe}}">
+	</head>
+
+	<body>
+		{# <!-- Header and Nav Menu --> #}
+        {% include "header.njk" %}
+		
+
+		<main class="main-content px-sm-5">
+
+			{# <!-- Title and Description --> #}
+			<section id="heading">
+				<h1 id="main-title" class="mt-sm-2">Jen Patchett</h1>
+				<h2 id="main-description">Web Developer & Software Automation Tester</h2>
+			</section>
+
+
+			{# <!-- About Section with Carousel --> #}
+			<section id="about" class="row scroll-margin-top">
+
+					{# <!-- About --> #}
+					<div class="col-12 col-lg-6">
+						<h2>Hello, I'm Jen</h2>
+
+                        {# {{ content | safe }} #}
+
+						<p>I'm a web developer and former software automation tester at Sky UK Ltd, currently refreshing my coding skills with <a href="https://thecodersguild.org.uk" target="_blank">The Coder's Guild</a> in order to return to tech after a career break. In my spare time I enjoy gaming, creating electronic music and teaching piano.</p>
+						<p>In nisi scelerisque eu ultrices vitae. Scelerisque mauris pellentesque pulvinar pellentesque. Sodales ut eu sem integer vitae justo. Felis donec et odio pellentesque diam volutpat commodo sed. Ullamcorper eget nulla facilisi etiam. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. In fermentum et sollicitudin ac orci phasellus egestas. Non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et.</p>
+					</div>
+
+					{# <!-- Carousel --> #}
+					<div id="img-carousel-about" class="col-12 col-lg-6 mt-md-3">
+						<div id="carouselExampleIndicators" class="carousel slide">
+							<div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="./images/profile-img-main.jpeg" class="d-block w-100" alt="Photo of Jen sitting in front of a digital piano with a music book open on the music stand, a green ornamental duck in a pink hat sitting on the left side of the piano and a large green clock on the wall behind">
+								</div>
+								<div class="carousel-item">
+									<img src="./images/coding.jpg" class="d-block w-100" alt="An Apple MacBook with an iPhone placed on the keyboard and notebook to the side on the desk">
+								</div>
+								<div class="carousel-item">
+									<img src="./images/computer-screens.png" class="d-block w-100" alt="Two computer screens on a plain blue background">
+								</div>
+								<div class="carousel-item">
+									<img src="./images/macbook-code.jpg" class="d-block w-100" alt="A half-visible MacBook with computer code on the screen and an iPhone on the desk in the background">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+			</section>
+
+
+			{# <!-- Skills and Experience Accordion --> #}
+			<section id="skills" class="accordion scroll-margin-top">
+				<h2 class="heading-mb">My Skills & Experience</h2>
+				<div class="accordion-item">
+					<h3 class="accordion-header">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Skills</button>
+					</h3>
+					<div id="collapseOne" class="accordion-collapse collapse show row" data-bs-parent="#skills">
+						<div class="accordion-body">
+							<p><strong>This is the first section's accordion body. </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Pharetra sit amet aliquam id diam maecenas ultricies mi. Egestas sed sed risus pretium quam vulputate. Nisl suscipit adipiscing bibendum est. Sit amet risus nullam eget felis eget nunc. Etiam non quam lacus suspendisse. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Orci porta non pulvinar neque laoreet suspendisse. Ultricies mi quis hendrerit dolor magna eget. Urna porttitor rhoncus dolor purus non. In egestas erat imperdiet sed euismod nisi porta. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Id velit ut tortor pretium viverra suspendisse potenti. Diam vulputate ut pharetra sit amet. Amet facilisis magna etiam tempor orci eu.</p>
+							<p>In nisl nisi scelerisque eu ultrices vitae. Scelerisque mauris pellentesque pulvinar pellentesque. Sodales ut eu sem integer vitae justo. Felis donec et odio pellentesque diam volutpat commodo sed. Ullamcorper eget nulla facilisi etiam. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. In fermentum et sollicitudin ac orci phasellus egestas. Non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et. Ut tortor pretium viverra suspendisse potenti nullam. Neque volutpat ac tincidunt vitae semper. Aliquet nibh praesent tristique magna sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Experience</button>
+					</h3>
+					<div id="collapseTwo" class="accordion-collapse collapse row" data-bs-parent="#skills">
+						<div class="accordion-body">
+							<p><strong>This is the second section's accordion body. </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Pharetra sit amet aliquam id diam maecenas ultricies mi. Egestas sed sed risus pretium quam vulputate. Nisl suscipit adipiscing bibendum est. Sit amet risus nullam eget felis eget nunc. Etiam non quam lacus suspendisse. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Orci porta non pulvinar neque laoreet suspendisse. Ultricies mi quis hendrerit dolor magna eget. Urna porttitor rhoncus dolor purus non. In egestas erat imperdiet sed euismod nisi porta. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Id velit ut tortor pretium viverra suspendisse potenti. Diam vulputate ut pharetra sit amet. Amet facilisis magna etiam tempor orci eu.</p>
+							<p>In nisl nisi scelerisque eu ultrices vitae. Scelerisque mauris pellentesque pulvinar pellentesque. Sodales ut eu sem integer vitae justo. Felis donec et odio pellentesque diam volutpat commodo sed. Ullamcorper eget nulla facilisi etiam. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. In fermentum et sollicitudin ac orci phasellus egestas. Non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et. Ut tortor pretium viverra suspendisse potenti nullam. Neque volutpat ac tincidunt vitae semper. Aliquet nibh praesent tristique magna sit amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h3 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Education</button>
+					</h3>
+					<div id="collapseThree" class="accordion-collapse collapse row" data-bs-parent="#skills">
+						<div class="accordion-body">
+							<p><strong>This is the third section's accordion body. </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus. Pharetra sit amet aliquam id diam maecenas ultricies mi. Egestas sed sed risus pretium quam vulputate. Nisl suscipit adipiscing bibendum est. Sit amet risus nullam eget felis eget nunc. Etiam non quam lacus suspendisse. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Orci porta non pulvinar neque laoreet suspendisse. Ultricies mi quis hendrerit dolor magna eget. Urna porttitor rhoncus dolor purus non. In egestas erat imperdiet sed euismod nisi porta. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Id velit ut tortor pretium viverra suspendisse potenti. Diam vulputate ut pharetra sit amet. Amet facilisis magna etiam tempor orci eu.</p>
+							<p>In nisl nisi scelerisque eu ultrices vitae. Scelerisque mauris pellentesque pulvinar pellentesque. Sodales ut eu sem integer vitae justo. Felis donec et odio pellentesque diam volutpat commodo sed. Ullamcorper eget nulla facilisi etiam. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. In fermentum et sollicitudin ac orci phasellus egestas. Non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et. Ut tortor pretium viverra suspendisse potenti nullam. Neque volutpat ac tincidunt vitae semper. Aliquet nibh praesent tristique magna sit amet.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			{# <!-- Projects Section --> #}
+			<section id="projects" class="scroll-margin-top">
+				<h2 class="heading-mb">Recent Projects</h2>
+			
+				<div class="card-group">
+					<div class="card">
+						<a href="#" target="_blank"><img src="./images/macbook-code.jpg" class="card-img-top" alt="A half-visible MacBook with computer code on the screen and an iPhone on the desk in the background"></a>
+						<div class="card-body">
+							<h3 class="card-title"><a class="card-title-link" href="#" target="_blank">Project 1</a></h3>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<a href="#" target="_blank" aria-label="View Project 1 in a new tab">View project</a>
+						</div>
+					</div>
+					
+					<div class="card">
+						<a href="#" target="_blank"><img src="./images/computer-screens.png" class="card-img-top" alt="Two computer screens on a plain blue background"></a>
+						<div class="card-body">
+							<h3 class="card-title"><a class="card-title-link" href="#" target="_blank">Project 2</a></h3>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" target="_blank" aria-label="View Project 2 in a new tab">View project</a>
+						</div>
+					</div>
+
+					<div class="card">
+						<a href="#" target="_blank"><img src="./images/coding.jpg" class="card-img-top" alt="An Apple MacBook with an iPhone placed on the keyboard and notebook to the side on the desk">
+					<div class="card-body">
+						<h3 class="card-title"><a class="card-title-link" href="#" target="_blank">Project 3</a></h3>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+						<a href="#" target="_blank" aria-label="View Project 3 in a new tab">View project</a>
+					</div>
+					</div>
+				</div>
+			</section>
+
+
+			{# <!-- Contact Section --> #}
+			<section id="contact" class="row scroll-margin-top">
+				<h2>Contact</h2>
+					<form id="contact-form" method="post" action="#">
+						<fieldset class="mb-3 contact-form">
+							<label for="first-name" class="form-label">First name:</label>
+							<input type="text" class="form-control" id="first-name" aria-labelledby="first-name" required>
+						</fieldset>
+
+						<fieldset class="mb-3 contact-form">
+							<label for="last-name" class="form-label">Last name:</label>
+							<input type="text" class="form-control" id="last-name" aria-labelledby="last-name" required>
+						</fieldset>
+
+						<fieldset class="mb-3 contact-form">
+							<label for="email" class="form-label">Email address:</label>
+							<input type="email" class="form-control" id="email" aria-labelledby="email" required>
+						</fieldset>
+
+						<fieldset class="mb-3 contact-form">
+							<label for="inputMessage" class="form-label">Message:
+								<textarea type="text" class="form-control" id="inputMessage" aria-labelledby="inputMessage" rows="3" cols="80" required></textarea>
+							</label>
+						</fieldset>
+
+						<fieldset id="contact-form-submit" class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="form-check-input" required>
+							<label class="form-check-label" for="form-check-input">I agree to the <a href="#">terms</a></label>
+							<button id="contact-submit-btn" type="submit" class="btn btn-primary float-end">Submit</button>
+						</fieldset>
+					</form>
+			</section>
+
+		</main>
+
+        {# <!-- Footer --> #}
+        {% include "footer.njk" %}
+
+		{# <!-- Bootstrap script for interactivity --> #}
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>
