@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "A project created during The Coders Guild web design and development bootcamp, Nov 2023 - Feb 2024.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
