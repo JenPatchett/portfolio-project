@@ -1,0 +1,10 @@
+{# Partial to display multiple project-card items #}
+
+<section id="projects" class="projects scroll-margin-top">
+    <h2 class="heading-mb">Recent projects</h2>
+    <div class="project-grid">
+        {% asyncEach project in collections.projects %}
+        {% include "project-card.njk" %}
+        {% endeach %} 
+    </div>
+</section>
