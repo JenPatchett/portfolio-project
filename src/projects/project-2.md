@@ -1,7 +1,7 @@
 ---
 title: "Project 2"
 summary: "Like a lot of people, I got really into sourdough in 2020. I made this app to help me bake delicious bread by putting all my recipes and schedules in one place."
-image: /images/sourdough-sensei.jpg
+image: /images/computer-screens.png
 imageAlt: "Screenshots of sourdough bread app"
 tech:
   - "React.js"
