@@ -3,4 +3,5 @@ title: "Jen Patchett"
 layout: "base.njk"
 ---
 
-Home page
+{% include "about.njk" %}
+{% include "skills.njk" %}
