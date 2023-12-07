@@ -67,20 +67,12 @@ section {
 	color: inherit;
 }
 
-.skills-cards-container {
-	margin-top: 15px;
-}
-
-.skills-card {
-	padding: 0;
+.card-title-link:hover {
+	text-decoration: underline;
 }
 
 .heading-mb {
 	margin-bottom: 15px;
-}
-
-#project-one {
-	margin-top: -15px;
 }
 
 .accordion-button {
@@ -110,6 +102,11 @@ section {
 fieldset {
 	max-width: 700px;
 	margin-left: 2px;
+}
+
+#project {
+	margin-top: 10%;
+	padding-top: 50px;
 }
 
 #contact {
