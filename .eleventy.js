@@ -1,7 +1,10 @@
+// Restart server after adding changes to this file to take effect.
+
 module.exports = function (eleventyConfig) {
 
-  // Tells 11ty to pass css, favicons & images to final build:
+  // Tells 11ty to pass css and images to final build:
   eleventyConfig.addPassthroughCopy("./src/styles.css");
+  eleventyConfig.addPassthroughCopy("./src/images/");
 
   // Tells 11ty dev server to watch css dir & reload site if files change:
   eleventyConfig.addWatchTarget("./src/css/");
