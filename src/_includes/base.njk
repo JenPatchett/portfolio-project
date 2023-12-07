@@ -20,13 +20,9 @@
 
 		<main class="main-content px-sm-5">
 
-			{# <!-- Title and Description --> #}
-			<section id="heading">
-				<h1 id="main-title" class="mt-sm-2">Jen Patchett</h1>
-				<h2 id="main-description">Web Developer & Software Automation Tester</h2>
-			</section>
+			{{ content | safe }}
 
-
+			
 			{# <!-- Projects Section --> #}
 			<section id="projects" class="scroll-margin-top">
 				<h2 class="heading-mb">Recent Projects</h2>
@@ -61,7 +57,7 @@
 				</div>
 			</section>
 
-			{{ content | safe }}
+			
 
 
 			{# <!-- Contact Section --> #}
