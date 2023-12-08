@@ -1,12 +1,12 @@
 ---
 title: "Project 2"
-summary: "Like a lot of people, I got really into sourdough in 2020. I made this app to help me bake delicious bread by putting all my recipes and schedules in one place."
+summary: "This project will also have some interesting summary text displayed here once I have written it. The project cards will be styled with space between and shadow around."
 image: /images/computer-screens.png
 imageAlt: "Screenshots of sourdough bread app"
 tech:
   - "React.js"
   - "Firebase"
-  - "Tailwind CSS"
+  - "Bootstrap"
 siteUrl: "#"
 repoUrl: "#"
 ---

@@ -1,12 +1,12 @@
 ---
 title: "Project 3"
-summary: "I'm a huge Dungeons and Dragons fan, but keeping my spells straight has always been a challenge. I built this app to put all the information I need at my fingertips."
+summary: "This project will have a longer summary to show how the content will display in cards of varying sizes. I hope to create something equally interesting for this section. The card images will also be styled, to animate a small zoom on mouse hover."
 image: /images/macbook-code.jpg
 imageAlt: "Screenshots of DnD project"
 tech:
-  - "Next.js"
-  - "Firebase"
-  - "Tailwind CSS"
+  - "JavaScript"
+  - "Bootstrap"
+  - "11ty"
 siteUrl: "#"
 repoUrl: "#"
 ---
