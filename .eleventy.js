@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images/");
 
   // Tells 11ty dev server to watch css dir & reload site if files change:
-  eleventyConfig.addWatchTarget("./src/css/");
+  eleventyConfig.addWatchTarget("./src/");
 
   // Add shortcode to get current year for footer:
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
