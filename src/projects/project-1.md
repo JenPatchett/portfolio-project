@@ -1,6 +1,6 @@
 ---
 title: "Project 1"
-summary: "Sometimes it's hard to keep in touch with friends and family. I made this app to remind me to schedule a call if we haven't talked in a while."
+summary: "This is where the Project 1 summary text will be displayed. The tech listed above the project title will also be styled into badges."
 image: /images/coding.jpg
 imageAlt: "Screenshots of catch up app"
 tech:
