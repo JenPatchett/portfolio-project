@@ -4,6 +4,10 @@ body {
 	flex-direction: column;
 }
 
+a {
+	pointer-events: initial;
+}
+
 .main-content {
 	max-width: 1200px;
 	font-size: 16px;
