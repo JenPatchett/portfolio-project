@@ -103,8 +103,9 @@ section {
 	font-weight: 500;
 }
 
-.accordion-body {
+.accordion-body p {
 	margin-left: 10px;
+	padding-right: 5px;
 }
 
 fieldset {
