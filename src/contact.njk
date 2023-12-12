@@ -5,25 +5,25 @@ layout: "base.njk"
 
 <section id="contact" class="row">
     <h2>Contact</h2>
-    <form id="contact-form" method="post" action="#">
+    <form id="contact-form" name="contact" method="POST" action="#" netlify>
         <fieldset class="mb-3 contact-form">
             <label for="first-name" class="form-label">First name:</label>
-            <input type="text" class="form-control" id="first-name" aria-labelledby="first-name" required>
+            <input type="text" class="form-control" id="first-name" name="first-name" aria-labelledby="first-name" required>
         </fieldset>
 
         <fieldset class="mb-3 contact-form">
             <label for="last-name" class="form-label">Last name:</label>
-            <input type="text" class="form-control" id="last-name" aria-labelledby="last-name" required>
+            <input type="text" class="form-control" id="last-name" name="last-name" aria-labelledby="last-name" required>
         </fieldset>
 
         <fieldset class="mb-3 contact-form">
             <label for="email" class="form-label">Email address:</label>
-            <input type="email" class="form-control" id="email" aria-labelledby="email" required>
+            <input type="email" class="form-control" id="email" name="email" aria-labelledby="email" required>
         </fieldset>
 
         <fieldset class="mb-3 contact-form">
-            <label for="inputMessage" class="form-label">Message:
-                <textarea type="text" class="form-control" id="inputMessage" aria-labelledby="inputMessage" rows="3" cols="80" required></textarea>
+            <label for="input-message" class="form-label">Message:
+                <textarea type="text" class="form-control" id="input-message" name="message" aria-labelledby="input-message" rows="3" cols="80" required></textarea>
             </label>
         </fieldset>
 
