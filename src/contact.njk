@@ -8,23 +8,22 @@ layout: "base.njk"
     <form id="contact-form" name="contact" method="POST" action="#" netlify>
         <fieldset class="mb-3 contact-form">
             <label for="first-name" class="form-label">First name:</label>
-            <input type="text" class="form-control" id="first-name" name="first-name" aria-labelledby="first-name" required>
+            <input type="text" class="form-control" id="first-name" name="first-name" title="Enter your first name, maximum 30 characters" maxlength="30" aria-labelledby="first-name" required>
         </fieldset>
 
         <fieldset class="mb-3 contact-form">
             <label for="last-name" class="form-label">Last name:</label>
-            <input type="text" class="form-control" id="last-name" name="last-name" aria-labelledby="last-name" required>
+            <input type="text" class="form-control" id="last-name" name="last-name" title="Enter your last name, maximum 30 characters" maxlength="30" aria-labelledby="last-name" required>
         </fieldset>
 
         <fieldset class="mb-3 contact-form">
             <label for="email" class="form-label">Email address:</label>
-            <input type="email" class="form-control" id="email" name="email" aria-labelledby="email" required>
+            <input type="email" class="form-control" id="email" name="email" title="Enter your email, maximum 50 characters" maxlength="50" aria-labelledby="email" required>
         </fieldset>
 
         <fieldset class="mb-3 contact-form">
-            <label for="input-message" class="form-label">Message:
-                <textarea type="text" class="form-control" id="input-message" name="message" aria-labelledby="input-message" rows="3" cols="80" required></textarea>
-            </label>
+            <label for="input-message" class="form-label">Message:</label>
+            <textarea type="text" class="form-control" id="input-message" name="message" title="Enter your message, maximum 300 characters" maxlength="300" rows="6" cols="50" aria-labelledby="input-message" required></textarea>
         </fieldset>
 
         <fieldset id="contact-form-submit" class="mb-3 form-check">
