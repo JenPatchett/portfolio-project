@@ -55,6 +55,18 @@ section {
 	margin: 55px 0 80px 0;
 }
 
+main a {
+	text-decoration: none;
+	color: #7E3AB4;
+	font-weight: 700;
+}
+
+main a:hover {
+	color: #5e2c87;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
 .carousel-inner {
 	border-radius: 7px;
 	width: auto;
