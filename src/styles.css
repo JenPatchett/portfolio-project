@@ -55,6 +55,18 @@ section {
 	margin: 55px 0 80px 0;
 }
 
+main a {
+	text-decoration: none;
+	color: #7E3AB4;
+	font-weight: 700;
+}
+
+main a:hover {
+	color: #5e2c87;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
 .carousel-inner {
 	border-radius: 7px;
 	width: auto;
@@ -123,6 +135,11 @@ section {
 	margin-bottom: 40px;
 }
 
+.split-col {
+	column-count: 2;
+	column-gap: 40px;
+}
+
 fieldset {
 	max-width: 700px;
 	margin-left: 2px;
@@ -145,7 +162,37 @@ fieldset {
 		border-radius: 7px;
 		padding: 20px;
 	}
+
+	.split-col-md {
+		column-count: 1;
+		column-gap: 40px;
+	}
 }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+	/* Show 'Software Testing' and hide 'Testing' heading on small screens: */
+	#hide-not-md {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+
+	/* Show 'Testing' and hide 'Software Testing' heading on medium screens: */
+	#hide-md {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 851px) {
+
+	/* Show 'Software Testing' and hide 'Testing' heading on larger screens: */
+	#hide-not-md {
+		display: none;
+	}
+}
+
 
 footer {
 	margin: 50px 0 0 0;
