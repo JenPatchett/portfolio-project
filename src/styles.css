@@ -85,6 +85,7 @@ section {
 
 .accordion-button {
 	background-color: #F8F9FA;
+	font-size: 18px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -103,9 +104,23 @@ section {
 	font-weight: 500;
 }
 
-.accordion-body p {
+.accordion-body p,
+.accordion-body h4,
+.accordion-body h5 {
 	margin-left: 10px;
 	padding-right: 5px;
+}
+
+.accordion-body h4 {
+	font-size: 18px;
+}
+
+.accordion-body h5 {
+	font-size: 16px;
+}
+
+.accordion-body article {
+	margin-bottom: 40px;
 }
 
 fieldset {
