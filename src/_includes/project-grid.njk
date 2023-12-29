@@ -2,7 +2,13 @@
 
 <section id="projects" class="projects scroll-margin-top">
     <h2 class="heading-mb">Recent projects</h2>
-    <div class="project-grid row gx-0">
+    {# <div class="project-grid row gx-0">
+        {% asyncEach project in collections.projects %}
+        {% include "project-card.njk" %}
+        {% endeach %} 
+    </div> #}
+
+    <div class="project-grid row">
         {% asyncEach project in collections.projects %}
         {% include "project-card.njk" %}
         {% endeach %} 
