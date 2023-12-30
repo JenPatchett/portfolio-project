@@ -1,8 +1,8 @@
 ---
 title: "Portfolio Website"
 summary: "A custom designed portfolio website showcasing my web design and development skills."
-image: /images/coding.jpg
-imageAlt: "Screenshots of catch up app"
+image: /images/screenshot-jp-portfolio.png
+imageAlt: "Screenshot of JP Portfolio Website"
 tech:
   - "JavaScript"
   - "HTML"

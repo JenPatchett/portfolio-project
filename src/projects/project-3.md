@@ -1,8 +1,8 @@
 ---
-title: "Project 3"
-summary: "This project will have a longer summary to show how the content will display in cards of varying sizes. I hope to create something equally interesting for this section. The card images will also be styled, to animate a small zoom on mouse hover."
-image: /images/macbook-code.jpg
-imageAlt: "Screenshots of DnD project"
+title: "Crawford & Sons Electrical"
+summary: "A custom designed business website for a local electrician."
+image: /images/screenshot-cs-electrical.png
+imageAlt: "Screenshot of Crawford & Sons Electrical Website"
 tech:
   - "JavaScript"
   - "Bootstrap"

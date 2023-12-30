@@ -1,12 +1,12 @@
 ---
-title: "Project 4"
-summary: "This project will have a longer summary to show how the content will display in cards of varying sizes. I hope to create something equally interesting for this section. The card images will also be styled, to animate a small zoom on mouse hover."
-image: /images/macbook-code.jpg
-imageAlt: "Screenshots of DnD project"
+title: "Set the Tone Fitness"
+summary: "An existing e-commerce and fitness class booking website which I was hired to update and enhance."
+image: /images/screenshot-set-the-tone-fitness.png
+imageAlt: "Screenshot of Set the Tone Fitness Website"
 tech:
-  - "JavaScript"
-  - "Bootstrap"
-  - "11ty"
+  - "HTML"
+  - "CSS"
+  - "Wix"
 siteUrl: "#"
 repoUrl: "#"
 ---
