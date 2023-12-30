@@ -60,7 +60,7 @@ section {
 
 main a {
 	text-decoration: none;
-	color: #7E3AB4;
+	color: #7843E9;
 	font-weight: 700;
 }
 
@@ -178,6 +178,22 @@ main a:hover {
 
 .card-title-link:hover {
 	text-decoration: underline;
+}
+
+.project-card__tag {
+	background-color: #e3e6e4;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: #212529;
+	padding: 10px;
+	border: 1px solid #e3e6e4;
+	border-radius: 20px;
+	margin: 0 2px;
+}
+
+.project-card__tags {
+	text-align: center;
+
 }
 
 #contact {
