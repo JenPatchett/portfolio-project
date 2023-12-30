@@ -1,12 +1,12 @@
 ---
-title: "Project 1"
-summary: "This is where the Project 1 summary text will be displayed. The tech listed above the project title will also be styled into badges."
+title: "Portfolio Website"
+summary: "A custom designed portfolio website showcasing my web design and development skills."
 image: /images/coding.jpg
 imageAlt: "Screenshots of catch up app"
 tech:
-  - "Next.js"
-  - "Firebase"
-  - "Tailwind CSS"
+  - "JavaScript"
+  - "HTML"
+  - "CSS"
 siteUrl: "#"
 repoUrl: "#"
 ---

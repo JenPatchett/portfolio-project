@@ -1,12 +1,12 @@
 ---
-title: "Project 2"
-summary: "This project will also have some interesting summary text displayed here once I have written it. The project cards will be styled with space between and shadow around."
+title: "Purple 41 Web Design"
+summary: "A custom designed business website for my tech startup freelance role as a web developer."
 image: /images/computer-screens.png
 imageAlt: "Screenshots of sourdough bread app"
 tech:
-  - "React.js"
-  - "Firebase"
-  - "Bootstrap"
+  - "JavaScript"
+  - "HTML"
+  - "CSS"
 siteUrl: "#"
 repoUrl: "#"
 ---
