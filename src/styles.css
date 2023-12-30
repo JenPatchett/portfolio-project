@@ -137,7 +137,7 @@ main a:hover {
 }
 
 .accordion-body article {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .split-col {
@@ -145,8 +145,17 @@ main a:hover {
 	column-gap: 40px;
 }
 
-.skills-h4 {
+.skills-accordion h4 {
 	font-weight: 600;
+}
+
+.experience article:not(:last-child),
+.education article:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.higher-ed-h4 {
+	padding-top: 50px;
 }
 
 #project {
@@ -224,6 +233,10 @@ footer {
 	.split-col-md {
 		column-count: 1;
 		column-gap: 40px;
+	}
+
+	.higher-ed-h4 {
+		padding-top: 0;
 	}
 }
 
