@@ -169,6 +169,7 @@ main a:hover {
 
 .card-title {
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 .card-title-link {
@@ -180,9 +181,10 @@ main a:hover {
 	text-decoration: underline;
 }
 
+/* Individual tech badges on Project Card and Project Page */
 .project-card__tag {
 	background-color: #e3e6e4;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	font-weight: 600;
 	color: #212529;
 	padding: 10px;
@@ -191,9 +193,9 @@ main a:hover {
 	margin: 0 2px;
 }
 
+/* Group of tech badges on Project Card and Project Page */
 .project-card__tags {
 	text-align: center;
-
 }
 
 #contact {
