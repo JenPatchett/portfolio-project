@@ -3,19 +3,18 @@ layout: "base.njk"
 ---
 
 {# Template to show a project on its own page #}
-
 <section class="project">
   <h2 class="project-title heading-mb">{{ title }}</h2>
-  <div class="project__image-wrapper">
+  <div class="project__image-wrapper float-lg-end">
     {# use below instead of hard coded img ref after npm install @11ty/eleventy-img #}
     {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
   </div>
 
-  <div class="project-card__tags">
+  {# <div class="project-card__tags">
     {% for tag in project.data.tech %}
       <span class="project-card__tag">{{ tag }}</span>
     {% endfor %}
-  </div>
+  </div> #}
 
   <div class="project__content prose">
     {{ content | safe }}
