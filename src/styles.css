@@ -7,12 +7,21 @@ body {
 
 /* NAVIGATION */
 
+.nav-container {
+	max-width: 1400px;
+	font-size: 1.2rem;
+}
+
 .nav-social-links {
 	text-align: center;
 }
 
 .offcanvas {
 	max-width: 312px;
+}
+
+.navbar-brand {
+	font-size: 1.1rem;
 }
 
 .brand-logo-img {
@@ -230,8 +239,17 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 992px) {
 	nav .social-logo {
 		display: none;
+	}
+
+	.nav-container {
+		max-width: 1400px;
+		font-size: 1rem;
+	}
+
+	.navbar-brand {
+		font-size: 1rem;
 	}
 }
