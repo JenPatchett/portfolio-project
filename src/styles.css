@@ -158,6 +158,10 @@ main a:hover {
 	padding-top: 50px;
 }
 
+.skills-h4 {
+	padding-top: 40px;
+}
+
 #project {
 	margin-top: 10%;
 	padding-top: 50px;
@@ -236,6 +240,10 @@ footer {
 	}
 
 	.higher-ed-h4 {
+		padding-top: 0;
+	}
+
+	.skills-h4 {
 		padding-top: 0;
 	}
 }
