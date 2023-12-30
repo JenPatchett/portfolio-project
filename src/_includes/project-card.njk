@@ -1,21 +1,21 @@
 {# Partial for an individual project preview #}
 
-  <article class="col-12 col-sm-6 col-xl-3 mb-4">
-    {# update to use below instead of img ref after npm install @11ty/eleventy-img #}
+<article class="col-12 col-sm-6 col-xl-3 mb-4">
+  {# update to use below instead of img ref after npm install @11ty/eleventy-img #}
   {# {% EleventyImage project.data.image, project.data.imageAlt, "(min-width: 30em) 50vw, 100vw" %} #}
-    <div class="card h-100" style="width: auto;">
+  <div class="card h-100" style="width: auto;">
       <a href="{{ project.url }}" target="_blank"><img src="/images/macbook-code.jpg" class="card-img-top" alt="A half-visible MacBook with computer code on the screen and an iPhone on the desk in the background"></a>
-  <div class="card-body">
-    <div class="project-card__tags">
-      {% for tag in project.data.tech %}
-        <span class="project-card__tag">{{ tag }}</span>
-      {% endfor %}
+    <div class="card-body">
+      <div class="project-card__tags">
+        {% for tag in project.data.tech %}
+          <span class="project-card__tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <h3 class="card-title">
+          <a href="{{ project.url }}" class="card-title-link">{{ project.data.title }}</a>
+      </h3>
+      <p class="card-text">{{ project.data.summary }}</p>
+      <a href="{{ project.url }}">View project</a>
     </div>
-    <h3 class="card-title">
-        <a href="{{ project.url }}" class="card-title-link">{{ project.data.title }}</a>
-    </h3>
-    <p class="card-text">{{ project.data.summary }}</p>
-    <a href="{{ project.url }}">View project</a>
-  </div>
   </div>
 </article>
