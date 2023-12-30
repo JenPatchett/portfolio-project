@@ -183,7 +183,8 @@ main a:hover {
 }
 
 .project-card {
-	box-shadow: 7px 8px 5px #F8F9FD;
+	box-shadow: 7px 8px 5px #e3e6e8;
+	border: 1px solid #f1f2f4;
 	border-radius: 5px;
 	overflow: hidden;
 }
@@ -216,6 +217,21 @@ main a:hover {
 /* Group of tech badges on Project Card and Project Page */
 .project-card__tags {
 	text-align: center;
+}
+
+.project-title {
+	text-align: center;
+	padding: 15px 0;
+}
+
+.project__image-wrapper img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto 30px;
+	border: 1px solid #f1f2f4;
+	box-shadow: 7px 8px 5px #e3e6e8;
+	border-radius: 0.25rem;
 }
 
 #contact {
@@ -314,5 +330,9 @@ footer {
 
 	.navbar-brand {
 		font-size: 1rem;
+	}
+
+	.project__image-wrapper img {
+		margin: 5px 0 30px 30px;
 	}
 }
