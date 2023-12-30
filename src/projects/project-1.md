@@ -2,12 +2,12 @@
 title: "Portfolio Website"
 summary: "A custom designed portfolio website showcasing my web design and development skills."
 image: /images/screenshot-jp-portfolio.png
-imageAlt: "Screenshots of catch up app"
+imageAlt: "Screenshot of JP Portfolio Website"
 tech:
   - "JavaScript"
   - "HTML"
   - "CSS"
-siteUrl: "https://jenpatchett.netlify.app/"
+siteUrl: "#"
 repoUrl: "#"
 ---
 
