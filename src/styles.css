@@ -145,6 +145,10 @@ main a:hover {
 	column-gap: 40px;
 }
 
+.skills-h4 {
+	font-weight: 600;
+}
+
 #project {
 	margin-top: 10%;
 	padding-top: 50px;
