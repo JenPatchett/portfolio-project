@@ -1,6 +1,6 @@
 ---
 title: "Set the Tone Fitness"
-summary: "An existing e-commerce and fitness class booking website which I was hired to update and enhance."
+summary: "An existing e-commerce and fitness booking website which I was hired to update and enhance."
 image: /images/screenshot-set-the-tone-fitness.png
 imageAlt: "Screenshot of Set the Tone Fitness Website"
 tech:
