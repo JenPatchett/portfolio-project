@@ -55,6 +55,10 @@ section {
 	scroll-margin-top: 110px;
 }
 
+section:last-child {
+	margin-bottom: auto;
+}
+
 main a {
 	text-decoration: none;
 	color: #7843E9;
