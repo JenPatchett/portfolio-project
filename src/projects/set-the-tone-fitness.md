@@ -19,7 +19,7 @@ An existing e-commerce website with fitness class booking functionality hosted o
 
 - HTML
 - Custom CSS
-- JavaScript
+- Wix
 
 ### Challenges Faced
 
