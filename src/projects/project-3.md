@@ -13,16 +13,22 @@ repoUrl: "#"
 
 ### Problem Solved
 
-Yes, I could have just used DnD Beyond. But where's the fun in that? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+A custom designed business website for a local electrician with prominently displayed 'request a callback' buttons linked to a contact form.
 
 ### Technologies Used
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+- HTML
+- Bootstrap
+- Custom CSS
+- JavaScript
+- Nunjucks
+- 11ty
+- Netlify
 
 ### Challenges Faced
 
-Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
+The carousel with feature text took a lot of development and testing on a range of screen sizes to get the font sizes fully responsive and 'just right', but was worth the time spent!
 
 ### Lessons Learned
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
+As a former software tester, I went to town on the responsive font size development and testing to ensure it was clear and displayed well on different devices. This took longer than originally estimated but it was a great learning opportunity.
