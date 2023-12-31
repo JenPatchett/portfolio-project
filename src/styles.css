@@ -1,5 +1,6 @@
 body {
 	display: flex;
+	width: 100%;
 	min-height: 100vh;
 	flex-direction: column;
 }
@@ -8,7 +9,7 @@ body {
 /* NAVIGATION */
 
 .nav-container {
-	max-width: 1400px;
+	/* max-width: 1400px; */
 	font-size: 1.2rem;
 }
 
@@ -43,15 +44,18 @@ body {
 /* MAIN CONTENT */
 
 .main-content {
-	max-width: 1400px;
+	/* max-width: 1400px; */
+	width: 100%;
 	font-size: 16px;
 	margin: auto;
-	padding: 0 20px;
+	/* padding: 0 20px; */
 	/* scroll-behavior: smooth; */
 }
 
 section {
-	margin: 55px 0 80px 0;
+	max-width: 1400px;
+	margin: 55px auto 80px;
+	padding: 0 20px;
 	scroll-margin-top: 110px;
 }
 
@@ -86,19 +90,33 @@ main a:hover {
 	font-size: 20px;
 }
 
+.carousel {
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+}
+
 .carousel-inner {
-	border-radius: 7px;
 	width: auto;
 }
 
 .carousel-item>img {
-	height: 300px;
+	max-height: 325px;
 	width: auto;
 	object-fit: cover;
 }
 
 .heading-mb {
 	margin-bottom: 15px;
+}
+
+.profile-img img {
+	width: 100px;
+	margin: 0 0 20px 20px;
+	background-color: #F8F9FA;
+	border-radius: 7px;
+	box-shadow: 7px 8px 5px #e3e6e8;
+	overflow: hidden;
 }
 
 .accordion-button {
@@ -238,16 +256,18 @@ main a:hover {
 	border-radius: 0.25rem;
 }
 
-#contact {
-	margin-top: 100px;
-}
-
 
 /* FORMS */
 
 fieldset {
 	max-width: 700px;
 	margin-left: 2px;
+}
+
+#contact {
+	margin-top: 100px;
+	max-width: 750px;
+
 }
 
 
@@ -286,6 +306,14 @@ footer {
 		margin-left: auto;
 	}
 
+	section {
+		padding: 0 40px;
+	}
+
+	.carousel-item>img {
+		max-height: 350px;
+	}
+
 	#contact {
 		border: 1px solid #e6e6e6;
 		border-radius: 7px;
@@ -312,6 +340,10 @@ footer {
 	#hide-md {
 		display: none;
 	}
+
+	.carousel-item>img {
+		max-height: 330px;
+	}
 }
 
 @media only screen and (min-width: 851px) {
@@ -319,6 +351,10 @@ footer {
 	/* Show 'Software Testing' and hide 'Testing' heading on larger screens: */
 	#hide-not-md {
 		display: none;
+	}
+
+	.carousel-item>img {
+		max-height: 355px;
 	}
 }
 
@@ -338,5 +374,9 @@ footer {
 
 	.project__image-wrapper img {
 		margin: 5px 0 30px 30px;
+	}
+
+	.carousel-item>img {
+		max-height: 630px;
 	}
 }
