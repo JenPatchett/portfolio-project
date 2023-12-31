@@ -13,16 +13,22 @@ repoUrl: "#"
 
 ### Problem Solved
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+I designed, built and hosted this portfolio website to showcase my web design and development skills.
 
 ### Technologies Used
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+- HTML
+- Bootstrap
+- Custom CSS
+- JavaScript
+- Nunjucks
+- 11ty
+- Netlify
 
 ### Challenges Faced
 
-Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
+I initially faced some challenges around adding custom styling to some Bootstrap elements but after a lot of trial-and-error the perseverence paid off. Additionally, I had some issues importing the 11ty Images package but once resolved found this feature great for dynamically displaying images on individual Project pages.
 
 ### Lessons Learned
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
+Version control is essential for keeping a live, working version of the site published whilst developing on feature branches and testing in the background. Committing regularly helps when things don't go to plan and history needs to be stepped through, or issues undone. 

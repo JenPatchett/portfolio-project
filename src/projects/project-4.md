@@ -13,16 +13,18 @@ repoUrl: "#"
 
 ### Problem Solved
 
-Yes, I could have just used DnD Beyond. But where's the fun in that? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+An existing e-commerce website with fitness class booking functionality hosted on Wix. I was hired to update and enhance the website with additional features and improve accessibility.
 
 ### Technologies Used
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+- HTML
+- Custom CSS
+- JavaScript
 
 ### Challenges Faced
 
-Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
+When I took on this client, I had not previously used Wix so needed to allow additional time to upskill and research some of the features I was asked to implement. It was initially a challenge accessing the backend code, version control and testing environments, but once set up I quickly found my way around. 
 
 ### Lessons Learned
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
+Allow more time than you think you need when taking on existing projects, or starting a new project with technologies you're unfamiliar with! 
