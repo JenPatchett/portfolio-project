@@ -10,12 +10,6 @@ layout: "base.njk"
     {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
   </div>
 
-  {# <div class="project-card__tags">
-    {% for tag in project.data.tech %}
-      <span class="project-card__tag">{{ tag }}</span>
-    {% endfor %}
-  </div> #}
-
   <div class="project__content prose">
     {{ content | safe }}
   </div>

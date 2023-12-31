@@ -1,14 +1,74 @@
-<section id="about" class="row">
+
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators d-none d-md-flex">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/profile-img-main.jpg" class="d-block w-100 carousel-img"
+                alt="">
+            <div class="carousel-caption">
+                <h1>Jen Patchett</h1>
+                <h2>Web developer & former software automation tester</h2>
+                {# <a class="btn btn-primary mx-auto carousel-callback-btn" href="/#contact" role="button">Request
+                    a Callback</a> #}
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/images/macbook-code.jpg" class="d-block w-100 carousel-img"
+                alt="">
+            <div class="carousel-caption">
+                <h1>Jen Patchett</h1>
+                <h2>Web developer & former software automation tester</h2>
+                {# <a class="btn btn-primary mx-auto carousel-callback-btn" href="/#contact" role="button">Request
+                    a Callback</a> #}
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/images/coding.jpg" class="d-block w-100 carousel-img"
+                alt="">
+            <div class="carousel-caption">
+                <h1>Jen Patchett</h1>
+                <h2>Web developer & former software automation tester</h2>
+                {# <a class="btn btn-primary mx-auto carousel-callback-btn" href="/#contact" role="button">Request
+                    a Callback</a> #}
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+<section id="about">
 
     {# <!-- About --> #}
-    <div class="col-12 col-lg-6">
+    <div>
+        
+        <div class="profile-img float-end">
+             <img src="/images/brand-logo-img.png"  alt="Photo of Jen">
+        </div>
         <h2>Hello, I'm Jen</h2>
         <p>I’m a full-stack JavaScript developer and former Java automation tester with a keen interest in APIs and a passion for creating accessible, user-friendly products. I’m a visual and hands-on learner with a demonstrable commitment to continuing personal and professional development. I enjoy pair programming, collaborating in a small team and mentoring others. I'm a freelance web developer, following a tech career break where I retrained as a primary school teacher in 2022, and currently refreshing my coding skills through the 'Bootcamp in Web Design and Development' evening course with <a href="https://thecodersguild.org.uk/course-directory/get-hired-as-a-software-developer/" target="_blank">The Coder's Guild</a>. I also work part-time as a primary tutor and piano teacher.</p>
         <p>I returned to tech and became a freelance web developer in 2023 when I built my own website for my tutoring business, and a family member asked me to enhance their company website. I now design and build custom websites from scratch, in addition to maintaining existing web and e-commerce sites hosted on Wix and WordPress. Take a look at the <a href="/#projects">Projects</a> section to see some of my recent work.</p>
     </div>
 
     {# <!-- Carousel --> #}
-    <div id="img-carousel-about" class="col-12 col-lg-6 mt-md-5">
+    {# <div id="img-carousel-about" class="col-12 col-lg-6 mt-md-5">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,5 +95,5 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+    </div> #}
 </section>
