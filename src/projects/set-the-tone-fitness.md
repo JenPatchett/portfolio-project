@@ -6,24 +6,24 @@ imageAlt: "Screenshot of Set the Tone Fitness Website"
 tech:
   - "HTML"
   - "CSS"
-  - "Wix"
+  - "JavaScript"
 siteUrl: "#"
 repoUrl: "#"
 ---
 
 ### Problem Solved
 
-An existing e-commerce website with fitness class booking functionality hosted on Wix. I was hired to update and enhance the website with additional features and improve accessibility.
+An existing e-commerce website with fitness class booking functionality. I was hired to update and enhance the website with additional features and improve accessibility.
 
 ### Technologies Used
 
 - HTML
 - Custom CSS
-- Wix
+- JavaScript
 
 ### Challenges Faced
 
-When I took on this client, I had not previously used Wix so needed to allow additional time to upskill and research some of the features I was asked to implement. It was initially a challenge accessing the backend code, version control and testing environments, but once set up I quickly found my way around. 
+When I took on this client, I had not previously used the platform it is hosted on so needed to allow additional time to upskill and research some of the features I was asked to implement. It was initially a challenge accessing the backend code, version control and testing environments, but once set up I quickly found my way around. 
 
 ### Lessons Learned
 
