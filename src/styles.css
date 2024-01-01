@@ -230,6 +230,7 @@ main a:hover {
 
 .project-card__image-wrapper img {
 	width: 100%;
+	max-width: 600px;
 	height: auto;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -264,7 +265,7 @@ main a:hover {
 }
 
 .project__image-wrapper img {
-	max-width: 300px;
+	width: 100%;
 	height: auto;
 	display: block;
 	margin: 0 auto 30px;
@@ -357,10 +358,6 @@ footer p {
 
 	.skills-h4 {
 		padding-top: 0;
-	}
-
-	.project__image-wrapper img {
-		max-width: 600px;
 	}
 
 	#contact {
