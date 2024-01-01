@@ -12,17 +12,8 @@ nav {
 	background-color: #171a1c;
 }
 
-nav a {
-	color: #ffffff;
-}
-
 .nav-container {
 	padding: 0 30px;
-}
-
-.nav-social-links {
-	text-align: center;
-	margin-top: 20px;
 }
 
 .offcanvas {
@@ -41,6 +32,11 @@ nav a {
 	border-radius: 50%;
 	background-color: #F8F9FA;
 	margin-right: 10px;
+}
+
+.nav-social-links {
+	text-align: center;
+	margin-top: 20px;
 }
 
 #search-input,
@@ -298,17 +294,23 @@ fieldset {
 /* FOOTER */
 
 footer {
-	margin: 50px 0 0 0;
+	margin: 30px 0 0 0;
 	padding: 30px 0;
 	width: 100%;
-	background-color: #F8F9FA;
+	background-color: #171a1c;
 	font-size: 0.8em;
+	color: #ffffff;
 	text-align: center;
 }
 
+footer p {
+	margin: 20px 0 0 0;
+}
+
 .social-logo {
-	width: 30px;
-	margin: 30px 15px;
+	margin: 0 15px;
+	color: #ffffff;
+	font-size: 2rem;
 }
 
 
