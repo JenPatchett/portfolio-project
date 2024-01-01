@@ -100,10 +100,28 @@ main a:hover {
 	width: auto;
 }
 
-.carousel-item>img {
+.carousel-item img {
 	max-height: 325px;
 	width: auto;
 	object-fit: cover;
+	filter: brightness(50%) !important;
+}
+
+.carousel-caption {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 70px;
+}
+
+.carousel h1 {
+	font-size: 2.6rem;
+}
+
+.carousel h2 {
+	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 .heading-mb {
@@ -314,10 +332,13 @@ footer {
 		max-height: 350px;
 	}
 
-	#contact {
-		border: 1px solid #e6e6e6;
-		border-radius: 7px;
-		padding: 20px;
+	.carousel h1 {
+		font-size: 3.6rem;
+	}
+
+	.carousel h2 {
+		font-size: 2.5rem;
+		font-weight: 500;
 	}
 
 	.split-col-md {
@@ -331,6 +352,12 @@ footer {
 
 	.skills-h4 {
 		padding-top: 0;
+	}
+
+	#contact {
+		border: 1px solid #e6e6e6;
+		border-radius: 7px;
+		padding: 20px;
 	}
 }
 
@@ -378,5 +405,14 @@ footer {
 
 	.carousel-item>img {
 		max-height: 630px;
+	}
+
+	.carousel h1 {
+		font-size: 5rem;
+	}
+
+	.carousel h2 {
+		font-size: 3.5rem;
+		font-weight: 500;
 	}
 }
