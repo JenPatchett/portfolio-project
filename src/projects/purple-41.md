@@ -1,7 +1,7 @@
 ---
 title: "Purple 41 Web Design"
 summary: "A custom designed business website for my tech startup freelance role as a web developer."
-image: /images/screenshot-p-41-wd.png
+image: /images/screenshot-p41-wd.png
 imageAlt: "Screenshot of Purple 41 Web Design Website"
 tech:
   - "JavaScript"
