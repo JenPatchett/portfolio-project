@@ -67,12 +67,9 @@ section:last-child {
 
 main a {
 	text-decoration: none;
-	color: #7843E9;
-	font-weight: 700;
 }
 
 main a:hover {
-	color: #5e2c87;
 	text-decoration: underline;
 	text-underline-offset: 4px;
 }
