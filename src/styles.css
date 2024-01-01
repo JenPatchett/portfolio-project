@@ -360,6 +360,10 @@ footer p {
 		padding-top: 0;
 	}
 
+	.project__image-wrapper {
+		padding-left: 20px;
+	}
+
 	#contact {
 		border: 1px solid #e6e6e6;
 		border-radius: 7px;
@@ -406,7 +410,7 @@ footer p {
 	}
 
 	.project__image-wrapper img {
-		margin: 5px 0 30px 30px;
+		margin: 5px auto 30px;
 	}
 
 	.carousel-item>img {
