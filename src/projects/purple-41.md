@@ -15,6 +15,8 @@ repoUrl: "#"
 
 I designed and built a custom website for my tech startup Purple 41 Web Design as a freelance web developer.
 
+<br>
+
 ### Technologies Used
 
 - HTML
@@ -25,10 +27,16 @@ I designed and built a custom website for my tech startup Purple 41 Web Design a
 - 11ty
 - Netlify
 
+<br>
+
 ### Challenges Faced
 
 It took some trial and error to get the Hero / carousel to display in the way I had planned. 
 
+<br>
+
 ### Lessons Learned
 
 It is important to test on a range of devices and operating systems, and not rely solely on Chrome browser's built-in responsive dev tools!
+
+<br>
