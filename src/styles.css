@@ -90,17 +90,18 @@ main a:hover {
 }
 
 .carousel {
-	width: 100%;
+	width: auto;
 	position: relative;
+	height: 100%;
 	margin-top: 50px;
 }
 
 .carousel-inner {
 	width: auto;
+	height: 100%;
 }
 
 .carousel-item img {
-	max-height: 325px;
 	width: auto;
 	object-fit: cover;
 	filter: brightness(50%) !important;
@@ -322,6 +323,17 @@ footer p {
 	}
 }
 
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+	.carousel {
+		margin-top: 40px;
+	}
+
+	.carousel-item>img {
+		max-height: 360px;
+	}
+}
+
 @media only screen and (min-width: 768px) {
 
 	/* For desktop and tablet: */
@@ -334,8 +346,12 @@ footer p {
 		padding: 0 40px;
 	}
 
+	.carousel {
+		margin-top: 20px;
+	}
+
 	.carousel-item>img {
-		max-height: 350px;
+		max-height: 380px;
 	}
 
 	.carousel h1 {
@@ -378,9 +394,9 @@ footer p {
 		display: none;
 	}
 
-	.carousel-item>img {
-		max-height: 330px;
-	}
+	/* .carousel-item>img {
+		max-height: 380px;
+	} */
 }
 
 @media only screen and (min-width: 851px) {
@@ -388,10 +404,6 @@ footer p {
 	/* Show 'Software Testing' and hide 'Testing' heading on larger screens: */
 	#hide-not-md {
 		display: none;
-	}
-
-	.carousel-item>img {
-		max-height: 355px;
 	}
 }
 
@@ -414,7 +426,7 @@ footer p {
 	}
 
 	.carousel-item>img {
-		max-height: 630px;
+		max-height: 650px;
 	}
 
 	.carousel h1 {
