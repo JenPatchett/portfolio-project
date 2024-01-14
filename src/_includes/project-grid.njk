@@ -1,11 +1,11 @@
 {# Partial to display multiple project-card items #}
 
 <section id="projects" class="projects">
-    <h2 class="heading-mb">Recent Projects</h2>
+  <h2 class="heading-mb">Recent Projects</h2>
 
-    <div class="project-grid row">
-        {% asyncEach project in collections.projects %}
-        {% include "project-card.njk" %}
-        {% endeach %} 
-    </div>
+  <div class="project-grid row">
+    {% asyncEach project in collections.projects %}
+    {% include "project-card.njk" %}
+    {% endeach %}
+  </div>
 </section>
