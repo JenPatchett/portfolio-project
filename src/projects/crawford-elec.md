@@ -1,8 +1,8 @@
 ---
-title: "Crawford & Sons Electrical"
+title: "Crawford Electrical"
 summary: "A custom designed business website for a local electrician."
 image: /images/screenshot-cs-electrical.png
-imageAlt: "Screenshot of Crawford & Sons Electrical Website"
+imageAlt: "Screenshot of Crawford Electrical Website"
 tech:
   - "JavaScript"
   - "Bootstrap"
