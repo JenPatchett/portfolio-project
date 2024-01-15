@@ -1,6 +1,6 @@
 ---
-title: "Another Project"
-summary: "Another description will go here."
+title: "Project"
+summary: "A description of the project will go here."
 image: /images/macbook-code-2.png
 imageAlt: ""
 tech:
