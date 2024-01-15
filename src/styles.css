@@ -438,16 +438,3 @@ footer p {
 		font-weight: 500;
 	}
 }
-
-
-
-
-
-.cards-wrapper {
-	display: flex;
-}
-
-.card {
-	margin: 0 .5em;
-	width: calc(100%/3);
-}
